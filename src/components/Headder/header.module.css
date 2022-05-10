@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.header_wrapper {
+    height: 100px;
+    background-color: hsl(209, 23%, 22%);
+    margin-bottom: 50px;
+
+    border-radius: 0 0 5px 5px;
+    box-shadow: 1px 3px 17px -6px #000000;
+    -webkit-box-shadow:  1px 3px 17px -6px #000000;
+
+}
+
+.header_container {
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_text {
+    color: white;
+    opacity: 0.8;
+}

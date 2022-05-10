@@ -1,0 +1,96 @@
+.search_block {
+    width: 1500px;
+    height: 40px;
+    margin: 0 auto 100px;
+    padding-top: 25px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color:  hsl(207, 26%, 17%);
+
+}
+
+.countries_select_block {
+    width: 200px;
+    position: absolute;
+
+    background-color: hsl(209, 23%, 22%);
+    border-radius: 5px;
+
+    color: grey;
+    font-size: 18px;
+
+}
+
+.value_countries {
+    width: 200px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+
+    background-color: hsl(209, 23%, 22%);
+
+    color: grey;
+    font-size: 17px;
+    line-height: 40px;
+
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.value_countries:hover {
+    background-color: hsl(207, 26%, 17%);
+    opacity: 0.8;
+    color: white;
+}
+
+.country_capital {
+    padding-left: 10px;
+    display: block;
+    line-height: 30px;
+
+    transition: 0.6s;
+    cursor: pointer;
+
+}
+
+.country_capital:hover {
+    background-color: hsl(207, 26%, 17%);
+    color: white;
+
+}
+
+
+
+.input_block {
+    width: 400px;
+    height: 35px;
+}
+
+.input_line {
+    height: 35px;
+    width: 100%;
+    padding-left: 45px;
+
+    background-color: hsl(209, 23%, 22%);
+
+    border-radius: 5px;
+    border: none;
+    outline: 0 !important;
+
+    color:#d7d1d1 ;
+    font-size: 16px;
+
+}
+
+
+.input_line::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+.input_line::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+.input_line:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+.input_line:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+.input_line:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+.input_line:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+.input_line:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+.input_line:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
