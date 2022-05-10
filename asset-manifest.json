@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CountryProject/static/css/main.91b9f2fc.css",
+    "main.js": "/CountryProject/static/js/main.c5382746.js",
+    "static/js/787.28cb0dcd.chunk.js": "/CountryProject/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/CountryProject/index.html",
+    "main.91b9f2fc.css.map": "/CountryProject/static/css/main.91b9f2fc.css.map",
+    "main.c5382746.js.map": "/CountryProject/static/js/main.c5382746.js.map",
+    "787.28cb0dcd.chunk.js.map": "/CountryProject/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91b9f2fc.css",
+    "static/js/main.c5382746.js"
+  ]
+}
